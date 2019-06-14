@@ -34,6 +34,9 @@ def bike(stationName):
         if station['station_id'] in i['station_id']:
             stationDetails = i
 
+    #Generate a Google Maps Link to the stations location
+    mapsLink = "https://www.google.com/maps/place/" + str(station["lat"]) +"," + str(station["lon"])
+
     #convert timestamps
     timestamp = time.localtime(stationDetails['last_reported'])
     reportTime = time.strftime("%d-%m-%Y %H:%M:%S", timestamp)
@@ -44,6 +47,7 @@ def bike(stationName):
     print("Bikes Available:", stationDetails['num_bikes_available'])
     print("Locks Available: ", stationDetails['num_docks_available'])
     print("Total station capacity: ", station['capacity'])
+    print("Location in Maps: ", mapsLink)
 
 
 def AllStations(fullDetails=False):
