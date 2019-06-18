@@ -18,6 +18,6 @@ If you chooce the current month, You'll get data up to yesterday.
 
 ![alt text](https://github.com/Grue91/PYSykkel/blob/master/Img2.jpg)
 
-![alt text](https://github.com/Grue91/PYSykkel/blob/master/Img3.jpg)
+![alt text](https://github.com/Grue91/PYSykkel/blob/master/Img3.jpeg)
 
 Data from: https://oslobysykkel.no/apne-data/historisk
